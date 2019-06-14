@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-mapping>  
+	<map> 
+        <url>/</url>
+        <goPage>/jsp/loginPage.jsp</goPage>
+    </map> 
+	<map>
+        <url>/index</url>
+        <goPage>/jsp/loginPage.jsp</goPage>
+    </map> 
+	<map>
+        <url>/login</url>
+        <goPage>/jsp/loginPage.jsp</goPage>
+    </map>  
+    <map>
+        <url>/login.do</url>
+        <controller>Login</controller>
+        <goPage>/jsp/index.jsp</goPage>
+    </map>
+    <map>
+        <url>/userview</url>
+        <controller>UserView</controller>
+        <goPage>/jsp/userview.jsp</goPage>
+    </map>
+    <map>
+        <url>/userview.do</url>
+        <controller>UserView</controller>
+        <goPage>/jsp/userview.jsp</goPage>
+    </map>
+        <map>
+        <url>/read</url>
+        <controller>readArticle</controller>
+        <goPage>/jsp/read.jsp</goPage>
+    </map>
+    <map>
+        <url>/read.do</url>
+        <controller>readArticle</controller>
+        <goPage>/jsp/read.jsp</goPage>
+    </map>
+
+</web-mapping>
