@@ -1,0 +1,11 @@
+微博系统
+	SSM(Spring + SpringMVC + MyBatis) + Tomcat
+	使用Restful风格的URL
+	使用MyCat + MYSQL来存储数据,引入MySql主从架构
+	使用WebSocket来做聊天室,通过轮询来做消息提醒
+	使用Sphinx/Lucene来进行全文检索(这里需要做一个连接池,如果找不到开源的jar包就自己实现一个)
+	使用Redis/Memcached来做缓存(主从集群)
+	使用Nginx来做负载均衡
+	使用docker来进行集群部署
+
+
